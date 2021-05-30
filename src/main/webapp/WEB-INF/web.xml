@@ -2,19 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
   <display-name>Demo2</display-name>
   
-  <servlet>
-  <servlet-name>abc</servlet-name>
-  <servlet-class>com.model.MyServlet</servlet-class>
-  
-  <init-param>
-  <param-name>Name</param-name>
-  <param-value>I Changed my name to S Badal</param-value>
-  </init-param>
-  </servlet>
-  <servlet-mapping>
-  <servlet-name>abc</servlet-name>
-  <url-pattern>/add</url-pattern>
-  </servlet-mapping>
+
   
   <context-param>
   <param-name>Name</param-name>
